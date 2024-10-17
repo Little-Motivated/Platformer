@@ -8,5 +8,22 @@
 [node name="Player" parent="." instance=ExtResource("2_ceqr1")]
 position = Vector2(321, 352)
 
-[node name="Wall" parent="." instance=ExtResource("3_iu2wc")]
-position = Vector2(281, 192)
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="Wall" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(412, 477)
+
+[node name="Wall2" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(273, 661)
+
+[node name="Wall3" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(307, 476)
+
+[node name="Wall4" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(709, 680)
+
+[node name="Wall5" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(725, 397)
+
+[node name="Wall6" parent="Walls" instance=ExtResource("3_iu2wc")]
+position = Vector2(158, 505)
